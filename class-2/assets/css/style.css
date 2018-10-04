@@ -1,41 +1,126 @@
-/* Base css */
-.alignleft{
-	float: left;
-	margin-right: 15px;
+/* base css*/
+.alainleft{
+    float: left;
+    margin-right: 15px
 }
-
-.alignright{
-	float: right;
-	margin-left: 15px
+.alainright{
+    float: right;
+    margin-right: 15px
 }
-
-.aligncenter{
-	display: block;
-	margin: 0 auto 15px;
+.alaincenter{
+    display: block;
+    margin:0 auto 15px;
 }
-
-a:focus :{ outline: 0 solid ;} 
-
+a:focus{
+outline: 0 solid
+}
 img{
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,{ 
-	margin: 0 0 15px;
-	font-weight: 700px;
-	 }
+h6,{
+    margin:0 0 15px;
+    font-weight: 700;
+}
 
-body{
+    body{
 
-	font-family: 'Open Sans', sans-serif;
+        font-family: 'Lato', sans-serif;
 
+        }
+    a:hover {
+        text-decoration: none;
+            }
+    .section-padding{ padding: 80px 0 }
 
-}	
+.quote-from-wrap img{
+    display: block;
+    margin: 0 auto;
+}
 
-a: hover{ text-decoration: none; } 
+section.section-padding {
+    padding: 80px 0;
+}
+
+.blue-quote-form {
+    background: #2ab6fb;
+    color: #fff;
+    margin-top: -88px;
+    max-width: 770px;
+    padding-top: 10px;
+    
+    padding-right: 3px;
+    padding-bottom: 50px;
+}
+
+.blue-quote-form h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    /* margin-top: 0; */
+}
+
+.blue-quote-form h3:before {
+    bottom: 0;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    width: 130px;
+    content: "";
+    background: #fff;
+    margin-left: -65px;
+}
+
+.blue-quote-form h3:after {
+    left: 50%;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    content: "";
+    border: 2px solid #fff;
+    bottom: -5.5px;
+    margin-left: -6.5px;
+    border-radius: 50%;
+    background: #2ab6fb;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border: none;
+    background: none;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border-bottom: 1px solid #8fdafc;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.blue-quote-form textarea {
+    height: 100px;
+}
+
+.blue-form-submit {
+    text-align: center;
+    margin-top: 26px;
+}
+
+.blue-form-submit button[type=submit] {
+    background: #fff;
+    border: none;
+    color: #2ab6fb;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.blue-quote-form form {
+    padding: 0 50px;
+}
